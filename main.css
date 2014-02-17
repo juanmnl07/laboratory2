@@ -1,0 +1,14 @@
+/* MAIN CSS FOR LAB#2 */
+body {background-color: #EFEFEF;}
+#main{margin: 0 auto; width:940px; height: auto; background-color: #fff;}
+#main-form {display: block; margin: 0 auto; height: 500px; width: 50%; padding-top: 25px;}
+.campo, #content-region, input{margin-right: 10px; }
+.campo {float: left;}
+input[type="text"]{width: 96%; margin-bottom: 10px; height: 33px; border-radius: 5px; border: 1px solid #ddd; padding: 0 0 0 15px;}
+select {float: right; width: 70%; margin-bottom: 10px; height: 33px; border-radius: 5px; border: 1px solid #ddd; padding: 0 0 0 15px;}
+#tipo-pago, #motivo {float: left; width: 100%}
+#monto-numero{width: 50%;}
+#fecha{width: 60%; float: right;}
+#dia, #año{width: 37px; float: left; margin: 0 0px 10px 10px;}
+#mes{width: 75px; float: left; margin: 0 0px 10px 10px;}
+#calendar{background: url("img/calendar.png") no-repeat scroll -293px -168px rgba(0, 0, 0, 0); float: left; height: 25px; width: 25px; margin: 5px 0 0 20px;}

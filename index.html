@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Centro Infantil del Poder Judicial</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="main.css">
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/jquery.ui.datepicker.js"></script>
+
+<script>
+   jQuery(function() {
+      jQuery( "#calendar" ).datepicker();
+   });
+</script>
+
+</head>
+
+<body>
+  <!-- MAIN CONTENT -->
+	<div id="main">
+    <!-- REGION HEADER -->
+    <div id="header-region" class="region">
+      <!-- MENU BLOCK -->
+      <div id="menu-block" class="block">
+      </div>   
+    </div>
+    <!-- REGION CONTENT -->
+    <div id="content-region" class="region">
+      <!-- FORMULARIO -->
+      <form id="main-form">
+        <div id="content-form">
+          <div id="fecha">
+              <input type="text" placeholder="DIA" id="dia">
+              <input type="text" placeholder="MES" id="mes">
+              <input type="text" placeholder="AÑO" id="año">
+              <div id="calendar"></div>
+            </div>
+          <div>
+          <!-- CAMPOS DEL FORMULARIO -->
+            <input type="text" placeholder="Recibimos de:">
+            <input type="text" placeholder="La suma de:">
+            <input type="text" placeholder="$: 0.00" id="monto-numero">
+            <div id="tipo-pago">
+              <span class="campo">Tipo de pago: </span> 
+              <select>
+                <option>Efectivo</option>
+                <option>Cheque</option>
+                <option>Banco</option>
+                <option>Transferencia</option>
+              </select>  
+            </div>  
+              <div id="motivo">
+                <span class="campo">Motivo: </span> 
+                <select>
+                  <option>Matriculas</option>
+                  <option>Mensualidades</option>
+                  <option>Puestos: Café, Reposteria</option>
+                  <option>Deducción</option>
+                  <option>Otros</option>
+                </select>  
+              </div>  
+        </div>
+      </form>	 
+  	</div>
+    <!-- RIGHT SIDE REGION -->
+    <div id="right-side-region" class="region">   
+    </div>
+    <!-- FOOTER REGION -->
+    <div id="footer-region" class="region">   
+    </div>
+</body>
+</html>
